@@ -15,6 +15,13 @@ export interface Scooter {
   };
 }
 
+export interface ExtraOption {
+  id: string;
+  name: string;
+  price: number;
+  description: string;
+}
+
 export const SCOOTERS: Scooter[] = [
   {
     id: 'city',
@@ -62,5 +69,26 @@ export const SCOOTERS: Scooter[] = [
       6: 49.9,
       12: 44.9,
     },
+  },
+];
+
+export const EXTRA_OPTIONS: ExtraOption[] = [
+  {
+    id: 'helmet',
+    name: 'Casque de protection',
+    price: 5,
+    description: 'Casque homologué léger et aéré',
+  },
+  {
+    id: 'lock',
+    name: 'Antivol U renforcé',
+    price: 5,
+    description: 'Protection maximale contre le vol',
+  },
+  {
+    id: 'insurance',
+    name: 'Assurance casse & vol',
+    price: 8,
+    description: 'Roulez l\'esprit tranquille sans franchise exubérante',
   },
 ];
