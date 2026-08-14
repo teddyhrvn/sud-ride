@@ -10,7 +10,7 @@ export default function Navbar() {
           {/* LOGO + NOM DU SITE */}
           <Link href="/" className="flex items-center gap-2.5 group">
             <Image
-              src="/icon.jpg"
+              src="/images/icon.png"
               alt="Sud Ride SR"
               width={32}
               height={32}
