@@ -9,16 +9,14 @@ export default function Navbar() {
           
           {/* LOGO + NOM DU SITE */}
           <Link href="/" className="flex items-center gap-2.5 group">
-            <div className="relative w-8 h-8 flex items-center justify-center">
-              <Image
-                src="/icon.png"
-                alt="Sud Ride SR"
-                width={32}
-                height={32}
-                className="object-contain"
-                priority
-              />
-            </div>
+            <Image
+              src="/icon.jpg"
+              alt="Sud Ride SR"
+              width={32}
+              height={32}
+              className="object-contain rounded-md"
+              priority
+            />
             <div className="flex items-center text-xl font-extrabold tracking-tight">
               <span className="text-black">SUD</span>
               <span className="text-[#FF5500] ml-1">RIDE</span>
